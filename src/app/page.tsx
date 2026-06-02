@@ -3,6 +3,7 @@ import { AppHeader } from "@/components/layout/app-header";
 import { MobileBottomNav } from "@/components/layout/mobile-bottom-nav";
 import { PageContainer } from "@/components/layout/page-container";
 import { HealthSummaryCard } from "@/components/ui/health-summary-card";
+import { MeasurementTypeSelectorDemo } from "@/components/measurements/measurement-type-selector-demo";
 
 export default function HomePage() {
   return (
@@ -97,6 +98,7 @@ export default function HomePage() {
             </div>
           </article>
         </section>
+        <MeasurementTypeSelectorDemo />
       </PageContainer>
 
       <MobileBottomNav />
